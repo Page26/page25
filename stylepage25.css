@@ -1,0 +1,113 @@
+
+body
+{
+background: #FFE4B5;
+color: #000000;
+font-family: Trebuchet MS, Arial, Times New Roman;
+font-size: 12px;
+}
+
+ 
+
+#container
+{
+background: #FFE4B5;
+margin: 0px auto;
+width: 1000px;
+height: 1000px;
+}
+
+ 
+
+#header
+{
+background: #809100;
+height: 50px;
+width: 1000px;
+}
+
+ 
+
+#menu
+{
+background: #DEB887;
+float: left;
+width: 200px;
+height: 500px;
+}
+
+ 
+
+#content
+{
+background: #F5DEB3;
+float: right;
+width: 800px;
+height: 1000px;
+}
+
+ @-webkit-keyframes flicker { 50% {background-size: 7px 7px, 3px 3px;} 100% {background-size: 3px 3px, 7px 7px;} }
+ @keyframes flicker { 50% {background-size: 7px 7px, 3px 3px;} 100% {background-size: 3px 3px, 7px 7px;} }
+ #blink3 { position: relative; font-weight: bold; color: #30084f; }
+ #blink3:before { content: ""; position:absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: radial-gradient(rgba(255,255,255,1) 1px, rgba(255,255,255,0) 1px), radial-gradient(rgba(255,255,255,1) 1px, rgba(255,255,255,0) 1px); background-size: 3px 3px, 7px 7px; background-position: 0% 50%; -webkit-animation: flicker .5s linear infinite alternate; animation: flicker .5s linear infinite alternate; } 
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body1 {
+ background: #111;
+ font-family: "Open Sans",  Impact;
+}
+
+.area {
+  text-align: center;
+  font-size: 6.5em;
+  color: #fff;
+  letter-spacing: -7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
+
+
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+body2{
+  background: black;
+}
+
+svg{
+  width: 600px;
+  height: 120px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
+}
